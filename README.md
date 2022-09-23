@@ -1,2 +1,4 @@
 # Linear-Regression-Freelance-work
-Linear Regression analysis for supply chain company using R and excel
+This GitHub repo is for the freelance data science project I took from a top supply chain company. 
+The EDA was done using microsoft excel while the visualization and analysis leveraged base R.
+Please feel free to explore the code for my first real world project
