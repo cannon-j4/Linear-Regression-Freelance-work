@@ -7,7 +7,7 @@ library(dplyr)
 library(car)
 
 #read csv
-LTL <- read.csv('LTL Ecore Shipping Data.csv',header=TRUE, sep = ",")
+LTL <- read.csv('Data-source.csv',header=TRUE, sep = ",")
 LTL <- na.omit(LTL)
 head(LTL)
 summary(LTL)
