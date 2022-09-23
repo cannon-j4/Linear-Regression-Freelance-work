@@ -7,7 +7,7 @@ library(dplyr)
 library(car)
 
 #read csv
-FTL <- read.csv('FTL Ecore Shipping Data.csv',header=TRUE, sep = ",")
+FTL <- read.csv('Data-source.csv',header=TRUE, sep = ",")
 FTL <- na.omit(FTL)
 head(FTL)
 summary(FTL)
