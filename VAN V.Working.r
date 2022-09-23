@@ -6,7 +6,7 @@ library(dplyr)
 library(car)
 
 #read csv
-VAN <- read.csv('Data-Source.csv',header=TRUE, sep = ",")
+VAN <- read.csv('Data-source.csv',header=TRUE, sep = ",")
 VAN <- na.omit(VAN)
 head(VAN)
 summary(VAN)
